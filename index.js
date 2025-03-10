@@ -26,8 +26,7 @@ const client = new Client({
 
 // Configuration - you'll need to customize these values
 const CONFIG = {
-  token:
-    "MTM0NzIyODQ3Nzk0NTgwNjk0Mw.Gg7vyc.WFFZNKjdJI-my21DTaWoHDUXhYODJomYhOM1iw", // Replace with your bot token
+  token: process.env.BOT_TOKEN, // Replace with your bot token
   applicationChannelId: "1347236773029347491", // Channel where applications are submitted
   officerChannelId: "1347233612680134666", // Channel where officers review applications
   officerRoleId: "1292012074104524820", // Role ID for "Oude kaas" role
